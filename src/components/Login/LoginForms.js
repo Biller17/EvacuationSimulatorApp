@@ -22,6 +22,13 @@ export default class LoginForm extends Component{
         'Por favor intenta de nuevo'
       );
     }
+    magnitude = parseInt(this.state.magnitude, 10);
+    if(magnitude == null){
+      AlertIOS.alert(
+        'Magnitud invalida',
+        'Por favor intenta de nuevo'
+      );
+    }
     // Actions.nav()
   }
   render() {
