@@ -1,14 +1,36 @@
 import React, { Component } from 'react';
-import { Text, StyleSheet, View, Image, KeyboardAvoidingView} from 'react-native';
-
+import { Text, StyleSheet, View, Image, KeyboardAvoidingView, TouchableOpacity, AlertIOS} from 'react-native';
+import {Actions} from "react-native-router-flux";
 export default class Instructions extends Component {
   constructor(props){
     super(props);
+    this.state = {
+      index:0
+    }
   }
   componentWillMount(){
-    console.warn(this.props.data);
+    // console.warn(this.props.data);
+    if(this.props.data != 'random'){
+        this.simulacionDefinida(this.props.data.magnitude, this.props.data.time, this.props.data.building, this.props.data.floor );
+    }
+
   }
 
+nextInstruction(){
+  index = this.state.index;
+  if(index < this.state.instructions.length){
+    index +=1;
+    this.setState({
+      index: index
+    });
+  }
+  else{
+    AlertIOS.alert(
+      'Fin de la simulación'
+    );
+    Actions.drawer();
+  }
+}
 
 simulacionDefinida(magnitud, hora, aula, piso)
 {
@@ -24,24 +46,24 @@ simulacionDefinida(magnitud, hora, aula, piso)
     if(magnitud >= 8 && magnitud < 9){var magText = "Magnitud entre 8.0 y 8.9"};
     if(magnitud >= 9 && magnitud < 10){var magText = "Magnitud entre 9.0 y 9.9"};
 
-    indicaciones(magnitud, magText, hora, aula, piso);
+    this.indicaciones(magnitud, magText, hora, aula, piso);
 }
 
 //Función para dar las indicaciones a usuario
   indicaciones(magnitud, magText, hora, aula, piso)
   {
-        console.log(hora);
+        // console.warn(hora);
         //DATOS
-        document.getElementById("mag").innerHTML = magText;
+        // document.getElementById("mag").innerHTML = magText;
         if(hora < 12){
             var s = "am"
-            document.getElementById("time").innerHTML = hora+" "+s;
+            let displayTime = hora+" "+s;
         }
         else {
             s = "pm"
-            document.getElementById("time").innerHTML = hora+" "+s;
+            let displayTime = hora+" "+s;
         }
-        document.getElementById("ubicacion").innerHTML = "Aulas "+aula+" piso "+piso;
+        let displayLocation = "Aulas "+aula+" piso "+piso;
 
         //magnitud que no es necesario evacuar
         if(magnitud >= 1 && magnitud < 3){
@@ -50,11 +72,11 @@ simulacionDefinida(magnitud, hora, aula, piso)
             "No es necesaria una evacuación",
             "Si llegas a sentirlo solo manten la calma para no causar pánico"];
 
-            var text = "";
-            for (var i = 0; i < textArray.length; i++) {
-                 text += " ** " + textArray[i] + "<br>";
-            }
-             document.getElementById("indicaciones").innerHTML = text;
+            // var text = "";
+            // for (var i = 0; i < textArray.length; i++) {
+            //      text += " ** " + textArray[i] + "<br>";
+            // }
+            //  document.getElementById("indicaciones").innerHTML = text;
         }
         //magnitud de 3.0 a 3.9
         else if(magnitud >= 3 && magnitud < 4){
@@ -1234,20 +1256,46 @@ simulacionDefinida(magnitud, hora, aula, piso)
             }
         }
 
-        var text = "";
-        for (var i = 0; i < textArray.length; i++) {
-             text += " ** " + textArray[i] + "<br>";
-        }
-         document.getElementById("indicaciones").innerHTML = text;
+        // var text = "";
+        // for (var i = 0; i < textArray.length; i++) {
+        //      text += " ** " + textArray[i] + "<br>";
+        // }
+        //  document.getElementById("indicaciones").innerHTML = text;
+        this.setState({
+          instructions: textArray
+        });
+        // console.warn(textArray);
 
+  }
+  renderInstruction(){
+    if(this.state.index < this.state.instructions.length){
+      return(
+        <View>
+          <Text style={styles.instruction}>{this.state.instructions[this.state.index]}</Text>
+        </View>
+      )
+    }
+    else{
+      return(
+        <View>
+          <Text style={styles.instruction}>Ha finalizado la simulacion oprime siguiente paso para salir</Text>
+        </View>
+      )
+    }
   }
   render() {
     return (
       <KeyboardAvoidingView benhavior="padding" style={styles.container}>
         <View style={styles.container}>
+          <Text style={styles.title}>Simulador de evacuación</Text>
           <View style={styles.logoContainer}>
-            <Text style={styles.title}>Simulador de evacuación</Text>
+
+            {this.renderInstruction()}
           </View>
+
+          <TouchableOpacity onPress={()=>{this.nextInstruction()}}style={styles.buttonContainer}>
+            <Text style={styles.buttonText}>Siguiente paso</Text>
+          </TouchableOpacity>
       </View>
     </KeyboardAvoidingView>
   );
@@ -1257,7 +1305,8 @@ simulacionDefinida(magnitud, hora, aula, piso)
 const styles = StyleSheet.create({
     container:{
         flex: 1,
-        backgroundColor: '#3498db'
+        backgroundColor: '#3498db',
+        justifyContent: 'center',
     },
     logoContainer:{
       alignItems: 'center',
@@ -1269,11 +1318,27 @@ const styles = StyleSheet.create({
       height: 200
     },
     title:{
-      flex:1,
       color:'#FFF',
       fontSize: 45,
       marginTop: 20,
       textAlign: 'center',
       opacity: 0.8
-    }
+    },
+    instruction:{
+      color:'#FFF',
+      fontSize: 30,
+      marginTop: 80,
+      textAlign: 'center',
+      opacity: 0.8
+    },
+    buttonContainer:{
+      backgroundColor: '#2980b9',
+      paddingVertical: 10,
+      marginBottom: 10
+    },
+    buttonText:{
+      textAlign: 'center',
+      color: '#FFFFFF',
+      fontWeight: '700'
+    },
 });

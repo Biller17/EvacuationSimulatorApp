@@ -27,11 +27,9 @@ class usrSimulation extends Component {
             backgroundColor: '#3498db'
           }}>
           <Text style={styles.title}>Simulador de evacuación</Text>
-          <View style={styles.container}>
-            <View style={styles.formContainer}>
-              <LoginForm/>
+          <View style={styles.formContainer}>
+            <LoginForm/>
           </View>
-        </View>
         </Content>
       </Container>
     );
@@ -63,6 +61,7 @@ const styles = StyleSheet.create({
     },
     formContainer: {
       flex: 1,
+      width: 350,
     }
 });
 

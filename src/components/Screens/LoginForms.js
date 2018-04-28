@@ -15,7 +15,8 @@ export default class LoginForm extends Component{
 
   login(){
 
-    let building = parseInt(this.state.building, 10)
+    let building = parseInt(this.state.building, 10);
+    let time = this.state.time;
     if(building < 1 || building > 4){
       AlertIOS.alert(
         'Numero de edificio invalido',
@@ -65,53 +66,63 @@ export default class LoginForm extends Component{
     const simData = {
       building: building,
       floor: floor,
-      magnitude: magnitude
+      magnitude: magnitude,
+      time:time
     }
     Actions.instructions({data: simData})
   }
   render() {
     return(
       <View style={styles.container}>
-        <StatusBar
-          barStyle="light-content"
-        />
-
-        <TextInput
-          placeholder="Magnitud de sismo"
-          placeholderTextColor="rgba(255,255,255,0.7)"
-          //Control de botones una ves se complete el campo
-          returnKeyType="next"
-          onSubmitEditing={()=>this.passwordInput.focus()}
-          onChangeText={(magnitude) => this.setState({magnitude})}
-          keyboardType="email-address"
-          autoCapitalize="none"
-          autoCorrect={false}
-          style={styles.input}
-        />
-        <TextInput
-          placeholder="# de Edificio"
-          placeholderTextColor="rgba(255,255,255,0.7)"
-          //Control de botones una ves se complete el campo
-          returnKeyType="next"
-          onChangeText={(building) => this.setState({building})}
-          onSubmitEditing={()=>this.passwordInput.focus()}
-          keyboardType="email-address"
-          autoCapitalize="none"
-          autoCorrect={false}
-          style={styles.input}
-        />
-        <TextInput
-          placeholder="# de Piso"
-          placeholderTextColor="rgba(255,255,255,0.7)"
-          onChangeText={(floor) => this.setState({floor})}
-          //Control de botones una ves se complete el campo
-          returnKeyType="go"
-          style={styles.input}
-          ref={(input)=> this.passwordInput = input}
-        />
-
+        <View style={styles.inputContainer}>
+          <TextInput
+            placeholder="Magnitud de sismo"
+            placeholderTextColor="rgba(255,255,255,0.7)"
+            //Control de botones una ves se complete el campo
+            returnKeyType="next"
+            onSubmitEditing={()=>this.passwordInput.focus()}
+            onChangeText={(magnitude) => this.setState({magnitude})}
+            autoCapitalize="none"
+            autoCorrect={false}
+            style={styles.input}
+          />
+          <TextInput
+            placeholder="Hora"
+            placeholderTextColor="rgba(255,255,255,0.7)"
+            //Control de botones una ves se complete el campo
+            returnKeyType="next"
+            onSubmitEditing={()=>this.passwordInput.focus()}
+            onChangeText={(time) => this.setState({time})}
+            autoCapitalize="none"
+            autoCorrect={false}
+            style={styles.input}
+          />
+          <TextInput
+            placeholder="# de Edificio"
+            placeholderTextColor="rgba(255,255,255,0.7)"
+            //Control de botones una ves se complete el campo
+            returnKeyType="next"
+            onChangeText={(building) => this.setState({building})}
+            onSubmitEditing={()=>this.passwordInput.focus()}
+            autoCapitalize="none"
+            autoCorrect={false}
+            style={styles.input}
+          />
+          <TextInput
+            placeholder="# de Piso"
+            placeholderTextColor="rgba(255,255,255,0.7)"
+            onChangeText={(floor) => this.setState({floor})}
+            //Control de botones una ves se complete el campo
+            returnKeyType="go"
+            style={styles.input}
+            ref={(input)=> this.passwordInput = input}
+          />
+        </View>
       <TouchableOpacity onPress={()=>{this.login()}}style={styles.buttonContainer}>
         <Text style={styles.buttonText}>Iniciar simulación</Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={()=>{this.login()}}style={styles.buttonContainer}>
+        <Text style={styles.buttonText}>Iniciar simulación aleatoria</Text>
       </TouchableOpacity>
     </View>
     );
@@ -120,18 +131,24 @@ export default class LoginForm extends Component{
 
 const styles = StyleSheet.create({
   container:{
-    padding: 20
+    flex: 1,
+  },
+  inputContainer: {
+    paddingHorizontal: 20,
+    flex: 1,
+    marginBottom: 20,
   },
   input:{
-    height:40,
     backgroundColor: 'rgba(255,255,255,0.2)',
-    marginBottom: 20,
+    marginBottom: 10,
     color: '#FFF',
-    paddingHorizontal: 10
+    paddingHorizontal: 10,
+    paddingVertical: 10,
   },
   buttonContainer:{
     backgroundColor: '#2980b9',
-    paddingVertical: 10
+    paddingVertical: 10,
+    marginBottom: 10
   },
   buttonText:{
     textAlign: 'center',
@@ -142,7 +159,6 @@ const styles = StyleSheet.create({
     flex:1,
     color:'#FFF',
     fontSize: 50,
-    marginTop: 15,
     textAlign: 'center',
     opacity: 0.8
   }
