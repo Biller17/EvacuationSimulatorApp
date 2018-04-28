@@ -52,7 +52,7 @@ const MyApp = DrawerNavigator({
   UserSimulation:{
     screen: usrSimulation
   },
-  RealSimulation:{
+  RandomSimulation:{
     screen: realSimulation
   }
 })
