@@ -8,28 +8,66 @@ export default class LoginForm extends Component{
     this.state = {
       time: '00:00',
       magnitude: '0.0',
-      building: '1',
+      building: '0',
       floor: '0'
     }
   }
 
   login(){
-    console.warn("inicio de simuleishon");
-    if(this.state.building != '1' || this.state.building != '2' || this.state.building != '3' || this.state.building != '4'){
-      console.warn("edificio invalido");
+
+    let building = parseInt(this.state.building, 10)
+    if(building < 1 || building > 4){
       AlertIOS.alert(
         'Numero de edificio invalido',
         'Por favor intenta de nuevo'
       );
     }
-    magnitude = parseInt(this.state.magnitude, 10);
+    let magnitude = parseFloat(this.state.magnitude, 10);
     if(magnitude == null){
       AlertIOS.alert(
         'Magnitud invalida',
         'Por favor intenta de nuevo'
       );
     }
-    // Actions.nav()
+    let floor = parseInt(this.state.floor, 10);
+    if(building == 1){
+      if(floor < 1 || floor > 5){
+        AlertIOS.alert(
+          'Piso invalido',
+          'No hay piso ' + floor + ' en Aulas I'
+        );
+      }
+    }
+    else if(building == 2){
+      if(floor < 0 || floor > 4){
+        AlertIOS.alert(
+          'Piso invalido',
+          'No hay piso ' + floor + ' en Aulas II'
+        );
+      }
+    }
+    else if(building == 3){
+      if(floor < 0 || floor > 4){
+        AlertIOS.alert(
+          'Piso invalido',
+          'No hay piso ' + floor + ' en Aulas III'
+        );
+      }
+    }
+    else if(building == 4){
+      if(floor < 0 || floor > 7){
+        AlertIOS.alert(
+          'Piso invalido',
+          'No hay piso ' + floor + ' en Egade'
+        );
+      }
+    }
+    const simData = {
+      building: building,
+      floor: floor,
+      magnitude: magnitude
+    }
+    Actions.instructions({data: simData})
   }
   render() {
     return(
@@ -51,7 +89,7 @@ export default class LoginForm extends Component{
           style={styles.input}
         />
         <TextInput
-          placeholder="Edificio"
+          placeholder="# de Edificio"
           placeholderTextColor="rgba(255,255,255,0.7)"
           //Control de botones una ves se complete el campo
           returnKeyType="next"
@@ -63,9 +101,8 @@ export default class LoginForm extends Component{
           style={styles.input}
         />
         <TextInput
-          placeholder="Piso"
+          placeholder="# de Piso"
           placeholderTextColor="rgba(255,255,255,0.7)"
-          secureTextEntry
           onChangeText={(floor) => this.setState({floor})}
           //Control de botones una ves se complete el campo
           returnKeyType="go"
@@ -93,7 +130,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 10
   },
   buttonContainer:{
-    backgroundColor: '#246793',
+    backgroundColor: '#2980b9',
     paddingVertical: 10
   },
   buttonText:{

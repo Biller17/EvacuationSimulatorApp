@@ -8,14 +8,8 @@ import {
   AsyncStorage
 } from 'react-native';
 
-import {DrawerNavigator} from 'react-navigation'
-import HomeScreen from './src/components/Screens/HomeScreen'
-import buildingsMap from './src/components/Screens/buildingsMap'
-import usrSimulation from './src/components/Screens/usrSimulation'
-import realSimulation from './src/components/Screens/realSimulation'
-
-/*import {DrawerNavigatior} from 'react-navigation'
-import Login from './src/components/Login/Login'
+import Drawer from './Drawer'
+import Instructions from './src/components/Screens/Instructions'
 
 import {Scene, Router} from 'react-native-router-flux';
 
@@ -29,33 +23,12 @@ export default class App extends Component<{}> {
   render() {
     return <Router>
       <Scene key="Root">
-        <Scene key="login" component={Login} hideNavBar/>
+        <Scene key="drawer" component={Drawer} hideNavBar/>
+        <Scene key="instructions" component={Instructions} hideNavBar/>
       </Scene>
     </Router>
   }
-}*/
-export default class App extends Component{
-  render(){
-    return(
-      <MyApp/>
-    );
-  }
 }
-
-const MyApp = DrawerNavigator({
-  Home:{
-    screen: HomeScreen
-  },
-  Buildings:{
-    screen: buildingsMap
-  },
-  UserSimulation:{
-    screen: usrSimulation
-  },
-  RandomSimulation:{
-    screen: realSimulation
-  }
-})
 
 const styles = StyleSheet.create({
   container: {
