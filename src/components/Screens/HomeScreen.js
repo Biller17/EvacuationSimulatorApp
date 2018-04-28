@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import {
   View,
   Text,
-  StyleSheet
+  StyleSheet,
+  ScrollView
 } from "react-native";
 import {Card, Button} from "react-native-elements";
 
@@ -51,22 +52,18 @@ const images = [
   {
     key: 1,
     name: "Aulas 1",
-    image: require("../images/egade.jpg"),
     url: "https://unsplash.com/photos/C9t94JC4_L8"
   }, {
     key: 2,
     name: "Aulas 2",
-    image: require("../images/2.jpg"),
     url: "https://unsplash.com/photos/waZEHLRP98s"
   }, {
     key: 3,
     name: "Aulas 3",
-    image: require("../images/3.jpg"),
     url: "https://unsplash.com/photos/cFplR9ZGnAk"
   }, {
     key: 4,
     name: "EGADE",
-    image: require("../images/egade.jpg"),
     url: "https://unsplash.com/photos/89PFnHKg8HE"
   }
 ];
