@@ -5,35 +5,16 @@ import {
   Text,
   View,
   Button,
-  AsyncStorage
+  AsyncStorage,
+  Image
 } from 'react-native';
 
-import {DrawerNavigator} from 'react-navigation'
+import {DrawerNavigator, DrawerItems} from 'react-navigation'
 import HomeScreen from './src/components/Screens/HomeScreen'
-import buildingsMap from './src/components/Screens/buildingsMap'
+
 import usrSimulation from './src/components/Screens/usrSimulation'
-import realSimulation from './src/components/Screens/realSimulation'
+import { Container, Content, Header, Body, Icon } from 'native-base';
 
-/*import {DrawerNavigatior} from 'react-navigation'
-import Login from './src/components/Login/Login'
-
-import {Scene, Router} from 'react-native-router-flux';
-
-export default class App extends Component<{}> {
-
-  constructor() {
-    super()
-  }
-
-
-  render() {
-    return <Router>
-      <Scene key="Root">
-        <Scene key="login" component={Login} hideNavBar/>
-      </Scene>
-    </Router>
-  }
-}*/
 export default class Drawer extends Component{
   render(){
     return(
@@ -42,19 +23,35 @@ export default class Drawer extends Component{
   }
 }
 
+const CustomDrawerContentComponent = (props) =>(
+  <Container>
+    <Header style={{height: 150, backgroundColor: 'withe'}}>
+      <Body>
+        <Image
+          style={styles.drawerImage}
+          source={require('./src/Images/LogoTec.png')}
+          />
+      </Body>
+    </Header>
+    <Content>
+      <DrawerItems {...props}/>
+    </Content>
+
+  </Container>
+)
 const MyApp = DrawerNavigator({
-  Home:{
+  Inicio:{
     screen: HomeScreen
   },
-  Buildings:{
-    screen: buildingsMap
-  },
-  UserSimulation:{
+  Simulaciones:{
     screen: usrSimulation
-  },
-  RandomSimulation:{
-    screen: realSimulation
   }
+}, {
+    initialRouteName:'Inicio',
+    contentComponent:CustomDrawerContentComponent,
+    drawerOpenRoute: 'DrawerOpen',
+    drawerCloseRoute: 'DrawerClose',
+    drawerToggleRoute: 'DrawerToggle'
 })
 
 const styles = StyleSheet.create({
@@ -69,4 +66,10 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     margin: 10,
   },
+  drawerImage:{
+    height: 150,
+    width: 150,
+    borderRadius: 75
+  }
+
 });

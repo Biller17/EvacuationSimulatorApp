@@ -10,6 +10,12 @@ import LoginForm from './LoginForms';
 import{Icon, Button, Container, Header, Content, Left} from 'native-base'
 
 class usrSimulation extends Component {
+  static navigationOptions ={
+    drawerIcon:(
+      <Image source={require('../../Images/settings.png')}
+        style={{height:24, width:24}}/>
+    )
+  }
   render() {
     return(
       <Container>
