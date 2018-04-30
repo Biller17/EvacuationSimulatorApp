@@ -13,9 +13,67 @@ export default class Instructions extends Component {
     if(this.props.data != 'random'){
         this.simulacionDefinida(this.props.data.magnitude, this.props.data.time, this.props.data.building, this.props.data.floor );
     }
+    else{
+      this.simulacionProbabilistica();
+    }
 
   }
+  simulacionProbabilistica()
+  {
+      //se Genera una magnitud aleatoria
+      var magnitud = Math.random();
+      if(magnitud <= 0.687654){
+          magnitud = 1
+          var magText = "Magnitud menor a 3"
+      }
+      else if(magnitud > 0.687654 &&  magnitud <= 0.771567 ){
+         magnitud = 3
+          var magText = "Magnitud entre 3.0 y 3.9"
+      }
+      else if(magnitud > 0.771567 &&  magnitud <= 0.856879 ){
+          magnitud = 4
+          var magText = "Magnitud entre 4.0 y 4.9"
+      }
+      else if(magnitud > 0.856879 &&  magnitud <= 0.926376 ){
+          magnitud = 5
+          var magText = "Magnitud entre 5.0 y 5.9"
+      }
+      else if(magnitud > 0.926376 &&  magnitud <= 0.965654 ){
+          magnitud = 6
+          var magText = "Magnitud entre 6.0 y 6.9"
+      }
+      else if(magnitud > 0.965654 &&  magnitud <= 0.9865876 ){
+          magnitud = 7
+          var magText = "Magnitud entre 7.0 y 7.9"
+      }
+      else if(magnitud > 0.9865876 &&  magnitud <= 0.990121 ){
+          magnitud = 8
+          var magText = "Magnitud entre 8.0 y 8.9"
+      }
+      else{
+          magnitud = 9
+          var magText = "Magnitud entre 9.0 y 9.9"
+      }
 
+      //Hora del sismo
+      var hora = Math.floor(Math.random() * 15) + 7
+
+      //Ubicación duramte el sismo
+      var aulaArray = [1,2,3,5];
+      var aula = aulaArray[Math.floor(Math.random() * aulaArray.length)];
+      if(aula == 1){
+          var piso = Math.floor(Math.random() * 5) + 1
+      }
+      else if(aula == 2 || aula == 3 ){
+          var piso = Math.floor(Math.random() * 5)
+      }
+      else{
+          var piso = Math.floor(Math.random() * 8)
+      }
+      //Mandar a indicaciones
+      this.indicaciones(magnitud, magText, hora, aula, piso)
+
+  }
 nextInstruction(){
   index = this.state.index;
   if(index < this.state.instructions.length){
@@ -55,16 +113,22 @@ simulacionDefinida(magnitud, hora, aula, piso)
         // console.warn(hora);
         //DATOS
         // document.getElementById("mag").innerHTML = magText;
+        var displayTime = '';
         if(hora < 12){
             var s = "am"
-            let displayTime = hora+" "+s;
+            displayTime = hora+" "+s;
         }
         else {
             s = "pm"
-            let displayTime = hora+" "+s;
+            displayTime = hora+" "+s;
         }
         let displayLocation = "Aulas "+aula+" piso "+piso;
 
+        this.setState({
+          displayTime: displayTime,
+          displayLocation: displayLocation,
+          displayMagnitude: magText
+        });
         //magnitud que no es necesario evacuar
         if(magnitud >= 1 && magnitud < 3){
             var textArray = ["Te encuentras en Aulas "+aula+" piso "+piso+".",
@@ -1283,11 +1347,24 @@ simulacionDefinida(magnitud, hora, aula, piso)
       )
     }
   }
+
+  renderDisplayInfo(){
+    if(this.state.displayTime && this.state.displayMagnitude && this.state.displayLocation){
+      return(
+        <View>
+          <Text style={styles.info}>Hora: {this.state.displayTime}</Text>
+          <Text style={styles.info}>Magnitud: {this.state.displayMagnitude}</Text>
+          <Text style={styles.info}>Ubicacion: {this.state.displayLocation}</Text>
+        </View>
+      )
+    }
+  }
   render() {
     return (
       <KeyboardAvoidingView benhavior="padding" style={styles.container}>
         <View style={styles.container}>
           <Text style={styles.title}>Simulador de evacuación</Text>
+          {this.renderDisplayInfo()}
           <View style={styles.logoContainer}>
 
             {this.renderInstruction()}
@@ -1328,6 +1405,13 @@ const styles = StyleSheet.create({
       color:'#FFF',
       fontSize: 30,
       marginTop: 80,
+      textAlign: 'center',
+      opacity: 0.8
+    },
+    info:{
+      color:'#FFF',
+      fontSize: 15,
+      marginTop: 30,
       textAlign: 'center',
       opacity: 0.8
     },

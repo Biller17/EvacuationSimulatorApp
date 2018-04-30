@@ -71,6 +71,10 @@ export default class LoginForm extends Component{
     }
     Actions.instructions({data: simData})
   }
+
+  randomSim(){
+    Actions.instructions({data: 'random'})
+  }
   render() {
     return(
       <View style={styles.container}>
@@ -121,7 +125,7 @@ export default class LoginForm extends Component{
       <TouchableOpacity onPress={()=>{this.login()}}style={styles.buttonContainer}>
         <Text style={styles.buttonText}>Iniciar simulación</Text>
       </TouchableOpacity>
-      <TouchableOpacity onPress={()=>{this.login()}}style={styles.buttonContainer}>
+      <TouchableOpacity onPress={()=>{this.randomSim()}}style={styles.buttonContainer}>
         <Text style={styles.buttonText}>Iniciar simulación aleatoria</Text>
       </TouchableOpacity>
     </View>
