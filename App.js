@@ -10,7 +10,7 @@ import {
 
 import Drawer from './Drawer'
 import Instructions from './src/components/Screens/Instructions'
-
+import Aulas1 from './src/components/Screens/Aulas1'
 import {Scene, Router} from 'react-native-router-flux';
 
 export default class App extends Component<{}> {
@@ -23,6 +23,7 @@ export default class App extends Component<{}> {
       <Scene key="Root">
         <Scene key="drawer" component={Drawer} hideNavBar/>
         <Scene key="instructions" component={Instructions} hideNavBar/>
+        <Scene key="aulas1" component={Aulas1} hideNavBar/>
       </Scene>
     </Router>
   }

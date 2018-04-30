@@ -10,6 +10,7 @@ import {
 import{Icon, Container, Header, Content, Left} from 'native-base'
 
 import Gallery from 'react-native-image-gallery';
+export default class Aulas1 extends Component {
 
   render() {
     return (
@@ -25,3 +26,4 @@ import Gallery from 'react-native-image-gallery';
       />
     );
   }
+}

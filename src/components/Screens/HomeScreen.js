@@ -7,7 +7,7 @@ import {
   Image
 } from "react-native";
 import {Card, Button} from "react-native-elements";
-
+import {Actions} from "react-native-router-flux";
 import{Icon, Container, Header, Content, Left} from 'native-base'
 
 class HomeScreen extends Component {
@@ -17,6 +17,10 @@ class HomeScreen extends Component {
       <Image source={require('../../Images/home.png')}
         style={{height:24, width:24}}/>
     )
+  }
+
+  goToAulas1(){
+    Actions.aulas1();
   }
   render() {
     return(
@@ -43,7 +47,7 @@ class HomeScreen extends Component {
                   <Button
                     backgroundColor="#03A9F4"
                     title="Ver planos"
-                    onPress={() => this.props.navigation.navigate('Aulas1')}/>
+                    onPress={() => this.goToAulas1()}/>
                 </Card>
               ))}
             </ScrollView>
