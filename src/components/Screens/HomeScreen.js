@@ -43,7 +43,7 @@ class HomeScreen extends Component {
                   <Button
                     backgroundColor="#03A9F4"
                     title="Ver planos"
-                    onPress={() => this.navigation.navigate('Aulas1')}/>
+                    onPress={() => this.props.navigation.navigate('Aulas1')}/>
                 </Card>
               ))}
             </ScrollView>
@@ -59,7 +59,7 @@ const images = [
     key: 1,
     name: "Aulas 1",
     image: require("../../Images/aulas.jpg"),
-    url: "https://unsplash.com/photos/C9t94JC4_L8"
+    uri: "https://unsplash.com/photos/C9t94JC4_L8"
   }, {
     key: 2,
     name: "Aulas 2",
