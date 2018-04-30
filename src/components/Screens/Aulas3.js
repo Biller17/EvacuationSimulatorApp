@@ -11,15 +11,16 @@ import {
  
 import ImageElement from '../Screens/ImageElement';
 
-class Aulas1 extends Component {
+class Aulas3 extends Component {
     state={
         modalVisible: false,
-        modalImage: require('../../Images/aulas1/AULAS1_2.png'),
+        modalImage: require('../../Images/aulas3/AULAS3_0.png'),
         images:[
-            require('../../Images/aulas1/AULAS1_2.png'),
-            require('../../Images/aulas1/AULAS1_3.png'),
-            require('../../Images/aulas1/AULAS1_4.png'),
-            require('../../Images/aulas1/AULAS1_5.png')
+            require('../../Images/aulas3/AULAS3_0.png'),
+            require('../../Images/aulas3/AULAS3_1.png'),
+            require('../../Images/aulas3/AULAS3_2.png'),
+            require('../../Images/aulas3/AULAS3_3.png'),
+            require('../../Images/aulas3/AULAS3_4.png'),
         ]
     }
 
@@ -86,5 +87,5 @@ class Aulas1 extends Component {
 
   })
 
-  export default Aulas1;
+  export default Aulas3;
  

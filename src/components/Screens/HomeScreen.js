@@ -63,22 +63,18 @@ const images = [
     key: 1,
     name: "Aulas 1",
     image: require("../../Images/aulas.jpg"),
-    uri: "https://unsplash.com/photos/C9t94JC4_L8"
   }, {
     key: 2,
     name: "Aulas 2",
     image: require("../../Images/aulas.jpg"),
-    url: "https://unsplash.com/photos/waZEHLRP98s"
   }, {
     key: 3,
     name: "Aulas 3",
     image: require("../../Images/aulas.jpg"),
-    url: "https://unsplash.com/photos/cFplR9ZGnAk"
   }, {
     key: 5,
     name: "EGADE",
     image: require("../../Images/egade.jpg"),
-    url: "https://unsplash.com/photos/89PFnHKg8HE"
   }
 ];
 
