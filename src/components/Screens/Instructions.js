@@ -1373,9 +1373,49 @@ simulacionDefinida(magnitud, hora, aula, piso)
               <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
             </View>
           )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
         }
-        //-----------------Agregar mas ifs
-
       }
       else{
         return(
