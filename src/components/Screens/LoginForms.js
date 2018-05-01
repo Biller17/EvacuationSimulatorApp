@@ -7,7 +7,7 @@ export default class LoginForm extends Component{
     super(props)
     this.state = {
       time: '00:00',
-      magnitude: '0.0',
+      magnitude: '0',
       building: '0',
       floor: '0'
     }
@@ -69,7 +69,9 @@ export default class LoginForm extends Component{
       magnitude: magnitude,
       time:time
     }
-    Actions.instructions({data: simData})
+    if(building != '0' && floor != '0' && magnitude != '0' && time != '00:00'){
+      Actions.instructions({data: simData})
+    }
   }
 
   randomSim(){

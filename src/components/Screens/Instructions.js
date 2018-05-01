@@ -161,7 +161,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra a lado de los baños, esta salida te llevará a la parte trasera del edificio de aulas 1. ",
+                    "Se encuentra a lado de los baños, esta salida te llevará a la parte trasera del edificio de aulas 1.&SALIDAAULAS1",
                     "Una vez fuera dirigete hacia el estacionamiento a tu derecha, ahí se encuentra el punto de reunion más cercano a ti. ",
                     "Segunda salida de emergencia: ",
                     "Se encuentra del lado opuesto a los baños, junto a las escaleras, esta salida te llevará a la explanda de profesional.",
@@ -1331,13 +1331,99 @@ simulacionDefinida(magnitud, hora, aula, piso)
         // console.warn(textArray);
 
   }
+
+
   renderInstruction(){
     if(this.state.index < this.state.instructions.length){
-      return(
-        <View>
-          <Text style={styles.instruction}>{this.state.instructions[this.state.index]}</Text>
-        </View>
-      )
+      if(this.state.instructions[this.state.index].indexOf('&') > -1){
+        var splitString = this.state.instructions[this.state.index].split("&");
+        if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[0]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[0]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[0]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }
+        else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[0]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[0]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }else if(splitString[1] == "SALIDAAULAS1"){
+          return(
+            <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
+              <Text style={styles.instruction}>{splitString[2]}</Text>
+              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            </View>
+          )
+        }
+      }
+      else{
+        return(
+          <View>
+            <Text style={styles.instruction}>{this.state.instructions[this.state.index]}</Text>
+          </View>
+        );
+      }
     }
     else{
       return(
@@ -1397,6 +1483,10 @@ const styles = StyleSheet.create({
     logo:{
       width: 200,
       height: 200
+    },
+    instructionImage:{
+      width: 250,
+      height: 150,
     },
     title:{
       color:'#FFF',
