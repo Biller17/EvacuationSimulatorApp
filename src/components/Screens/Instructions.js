@@ -161,10 +161,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra a lado de los baños, esta salida te llevará a la parte trasera del edificio de aulas 1.&SALIDAAULAS1",
+                    "Se encuentra a lado de los baños, esta salida te llevará a la parte trasera del edificio de aulas 1.&AULAS1PISO1",
                     "Una vez fuera dirigete hacia el estacionamiento a tu derecha, ahí se encuentra el punto de reunion más cercano a ti. ",
                     "Segunda salida de emergencia: ",
-                    "Se encuentra del lado opuesto a los baños, junto a las escaleras, esta salida te llevará a la explanda de profesional.",
+                    "Se encuentra del lado opuesto a los baños, junto a las escaleras, esta salida te llevará a la explanda de profesional. 1.&AULAS1CAFE",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano"];
 
 
@@ -177,7 +177,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
                     "Salida de emergencia:",
-                    "Dirigete hacia la entrada del edificio, junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1",
+                    "Dirigete hacia la entrada del edificio, junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. 1.&AULAS1PISO2",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -191,7 +191,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras y desciende un piso",
-                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. ",
+                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1.  1.&AULAS1PISO2",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -205,7 +205,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras y desciende dos niveles hasta llegar al piso 1",
-                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. ",
+                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1.  1.&AULAS1PISO2",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -221,7 +221,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Dirigete hacia las escaleras y desciende un piso.",
                     "En el piso 4 camina todo derecho hasta volver a topar con las escaleras de tu lado derecho.",
                     "Baja tres niveles hasta llegar al piso 1",
-                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. ",
+                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1.  1.&AULAS1PISO2",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -237,10 +237,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra a lado de las escaleras, esta salida te llevará a la parte trasera del edificio de aulas 2. ",
+                    "Se encuentra a lado de las escaleras, esta salida te llevará a la parte trasera del edificio de aulas 2.  1.&AULA2PISO0",
                     "Una vez fuera dirigete hacia el estacionamiento arriba a tu derecha, ahí se encuentra el punto de reunion más cercano a ti. ",
                     "Segunda salida de emergencia: ",
-                    "Se encuentra en la conexión con Aulas 3, saliendo deberías ver el stand de santander.",
+                    "Se encuentra en la conexión con Aulas 3, saliendo deberías ver el stand de santander. 1.&AULAS3PISO0",
                     "Una vez ahí, dirigete hacia el estacionamiento enfrente de ti ese es el punto de reunion más cercano"];
 
 
@@ -253,10 +253,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional  1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional.  1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -269,10 +269,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras en el centro del edificio y desciende un piso",
-                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -286,10 +286,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Salida de emergencia:",
                     "Las escaleras se encuentran sobre el pasillo frontal del edificio, desciende un nivel.",
                     "Una vez en en el piso 2 camina hacia el pasillo paralelo el que llegaste, ahí se encuentran las escaleras, desciende un piso",
-                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -303,10 +303,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Salida de emergencia:",
                     "Las escaleras se encuentran sobre el pasillo frontal del edificio, desciende dos nivel.",
                     "Una vez en en el piso 2 camina hacia el pasillo paralelo el que llegaste, ahí se encuentran las escaleras, desciende un piso",
-                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional. 1.&AULAS2PISO",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -321,12 +321,12 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra en la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Se encuentra en la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&AULAS3PISO0",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión.",
                     "Segunda salida de emergencia: ",
-                    "Ésta salida está en el laboratorio que se encuentra bajando las escaleras, saliendo te encontrarás en la parte trasera del edificio. ",
+                    "Ésta salida está en el laboratorio que se encuentra bajando las escaleras, saliendo te encontrarás en la parte trasera del edificio. 1.&AULAS3PISO0",
                     "Una vez fuera de tu lado izquierdo se encuentra un estacionamiento, ese es el punto de reunión más cercano"];
 
 
@@ -340,7 +340,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja un piso.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -355,7 +355,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja dos pisos.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -370,7 +370,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja tres pisos.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -385,7 +385,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja cuatro pisos.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -404,7 +404,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Dirigete hacia la parte de atrás de la biblioteca, las puertas de cristal deberían estar abiertas, sal por ahí",
                     "Una vez fuera te encontrarás el punto de reunión justo enfrente, en el estacionamiento.",
                     "En caso de que las puertas se encuentren cerradas dirigete hacia las escaleras y sube un piso.",
-                    "Ya en el nivel 1 sal por las puertas principales hacia la explanada de profesional"];
+                    "Ya en el nivel 1 sal por las puertas principales hacia la explanada de profesional. 1.&EGADEPISO0"];
 
 
 
@@ -415,7 +415,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     textHora1, textHora2,
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
-                    "Dirigete hacia la salida principal de learning commons, saliendo te encontrarás en la explanda de profesional. ",
+                    "Dirigete hacia la salida principal de learning commons, saliendo te encontrarás en la explanda de profesional. 1.&EGADEPISO0 ",
                     "Existe otra salida, se encuentra dentro de los salones para maestros, esta salida te llevará a un pequeño jardín.",
                     "Desde ahí puedes salir a la explanada de profesional."];
 
@@ -428,7 +428,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Si te sientes ansioso o expuesto a algun peligro manten la calma y ubica la salida de emergencia. ",
                     "Salidas de emergencia:",
                     "la primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -448,7 +448,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -468,7 +468,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                    "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -488,7 +488,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -508,7 +508,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -526,7 +526,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -552,10 +552,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra a lado de los baños, esta salida te llevará a la parte trasera del edificio de aulas 1. ",
+                    "Se encuentra a lado de los baños, esta salida te llevará a la parte trasera del edificio de aulas 1. 1.&AULAS1PISO1",
                     "Una vez fuera dirigete hacia el estacionamiento a tu derecha, ahí se encuentra el punto de reunion más cercano a ti. ",
                     "Segunda salida de emergencia: ",
-                    "Se encuentra del lado opuesto a los baños, junto a las escaleras, esta salida te llevará a la explanda de profesional.",
+                    "Se encuentra del lado opuesto a los baños, junto a las escaleras, esta salida te llevará a la explanda de profesional. 1.&AULAS1CAFE",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano"];
 
 
@@ -568,7 +568,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
-                    "Dirigete hacia la entrada del edificio, junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1",
+                    "Dirigete hacia la entrada del edificio, junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1 1.&AULAS1PISO1",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -582,7 +582,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras y desciende un piso",
-                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. ",
+                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. 1.&AULAS1PISO1",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -596,7 +596,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras y desciende dos niveles hasta llegar al piso 1",
-                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. ",
+                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. 1.&AULAS1PISO1",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -612,7 +612,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Dirigete hacia las escaleras y desciende un piso.",
                     "En el piso 4 camina todo derecho hasta volver a topar con las escaleras de tu lado derecho.",
                     "Baja tres niveles hasta llegar al piso 1",
-                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. ",
+                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. 1.&AULAS1PISO1",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -628,10 +628,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra a lado de las escaleras, esta salida te llevará a la parte trasera del edificio de aulas 2. ",
+                    "Se encuentra a lado de las escaleras, esta salida te llevará a la parte trasera del edificio de aulas 2. 1.&AULAS2PISO0",
                     "Una vez fuera dirigete hacia el estacionamiento arriba a tu derecha, ahí se encuentra el punto de reunion más cercano a ti. ",
                     "Segunda salida de emergencia: ",
-                    "Se encuentra en la conexión con Aulas 3, saliendo deberías ver el stand de santander.",
+                    "Se encuentra en la conexión con Aulas 3, saliendo deberías ver el stand de santander. 1.&SALIDA2Y3",
                     "Una vez ahí, dirigete hacia el estacionamiento enfrente de ti ese es el punto de reunion más cercano"];
 
                 }
@@ -642,10 +642,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -658,10 +658,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras en el centro del edificio y desciende un piso",
-                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -675,10 +675,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Salida de emergencia:",
                     "Las escaleras se encuentran sobre el pasillo frontal del edificio, desciende un nivel.",
                     "Una vez en en el piso 2 camina hacia el pasillo paralelo el que llegaste, ahí se encuentran las escaleras, desciende un piso",
-                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -692,10 +692,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Salida de emergencia:",
                     "Las escaleras se encuentran sobre el pasillo frontal del edificio, desciende dos nivel.",
                     "Una vez en en el piso 2 camina hacia el pasillo paralelo el que llegaste, ahí se encuentran las escaleras, desciende un piso",
-                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -709,12 +709,12 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra en la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Se encuentra en la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3 ",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión.",
                     "Segunda salida de emergencia: ",
-                    "Ésta salida está en el laboratorio que se encuentra bajando las escaleras, saliendo te encontrarás en la parte trasera del edificio. ",
+                    "Ésta salida está en el laboratorio que se encuentra bajando las escaleras, saliendo te encontrarás en la parte trasera del edificio. 1.&AULAS3PISO0",
                     "Una vez fuera de tu lado izquierdo se encuentra un estacionamiento, ese es el punto de reunión más cercano"];
 
                 }
@@ -726,7 +726,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja un piso.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -741,7 +741,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja dos pisos.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3 ",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -756,7 +756,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja tres pisos.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3 ",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -771,7 +771,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja cuatro pisos.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3 ",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -789,7 +789,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Dirigete hacia la parte de atrás de la biblioteca, las puertas de cristal deberían estar abiertas, sal por ahí",
                     "Una vez fuera te encontrarás el punto de reunión justo enfrente, en el estacionamiento.",
                     "En caso de que las puertas se encuentren cerradas dirigete hacia las escaleras y sube un piso.",
-                    "Ya en el nivel 1 sal por las puertas principales hacia la explanada de profesional"];
+                    "Ya en el nivel 1 sal por las puertas principales hacia la explanada de profesional. 1.&EGADEPISO0"];
                 }
                 if(piso == 1){
                     var textArray = ["Te encuentras en Aulas "+aula+" piso "+piso+".",
@@ -799,7 +799,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Dirigete hacia la salida principal de learning commons, saliendo te encontrarás en la explanda de profesional. ",
                     "Existe otra salida, se encuentra dentro de los salones para maestros, esta salida te llevará a un pequeño jardín.",
-                    "Desde ahí puedes salir a la explanada de profesional."];
+                    "Desde ahí puedes salir a la explanada de profesional. 1.&EGADEPISO0"];
 
                 }
                 if(piso == 2){
@@ -810,7 +810,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salidas de emergencia:",
                     "la primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -830,7 +830,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -850,7 +850,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                    "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -870,7 +870,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -890,7 +890,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -908,7 +908,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -934,10 +934,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra a lado de los baños, esta salida te llevará a la parte trasera del edificio de aulas 1. ",
+                    "Se encuentra a lado de los baños, esta salida te llevará a la parte trasera del edificio de aulas 1. 1.&AULAS1PISO1",
                     "Una vez fuera dirigete hacia el estacionamiento a tu derecha, ahí se encuentra el punto de reunion más cercano a ti. ",
                     "Segunda salida de emergencia: ",
-                    "Se encuentra del lado opuesto a los baños, junto a las escaleras, esta salida te llevará a la explanda de profesional.",
+                    "Se encuentra del lado opuesto a los baños, junto a las escaleras, esta salida te llevará a la explanda de profesional. 1.&AULAS1CAFE",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano"];
 
                 }
@@ -948,7 +948,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
-                    "Dirigete hacia la entrada del edificio, junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1",
+                    "Dirigete hacia la entrada del edificio, junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1 1.&AULAS1PISO2",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -962,7 +962,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras y desciende un piso",
-                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. ",
+                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. 1.&AULAS1PISO2",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -976,7 +976,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras y desciende dos niveles hasta llegar al piso 1",
-                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. ",
+                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1.1.&AULAS1PISO2",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -994,7 +994,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Dirigete hacia las escaleras y desciende un piso.",
                     "En el piso 4 camina todo derecho hasta volver a topar con las escaleras de tu lado derecho.",
                     "Baja tres niveles hasta llegar al piso 1",
-                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. ",
+                    "Sal del edificio por la salida junto a la librería Porrúa, esta salida te llevará a la explanda de Aulas 1. 1.&AULAS1PISO2",
                     "Una vez ahí existen dos puntos de reunión cercanos: ",
                     "El primero es justo enfrente de la salida de Aulas 1, en caso de que haya demasiada gente sigue caminando hacia el asta bandera, al lado de ésta se encuentra el segundo punto de reunión."]
 
@@ -1010,10 +1010,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra a lado de las escaleras, esta salida te llevará a la parte trasera del edificio de aulas 2. ",
+                    "Se encuentra a lado de las escaleras, esta salida te llevará a la parte trasera del edificio de aulas 2. 1.&AULAS2PISO0",
                     "Una vez fuera dirigete hacia el estacionamiento arriba a tu derecha, ahí se encuentra el punto de reunion más cercano a ti. ",
                     "Segunda salida de emergencia: ",
-                    "Se encuentra en la conexión con Aulas 3, saliendo deberías ver el stand de santander.",
+                    "Se encuentra en la conexión con Aulas 3, saliendo deberías ver el stand de santander. 1.&SALIDA2Y3PARTE2",
                     "Una vez ahí, dirigete hacia el estacionamiento enfrente de ti ese es el punto de reunion más cercano"];
 
                 }
@@ -1024,10 +1024,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -1040,10 +1040,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras en el centro del edificio y desciende un piso",
-                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -1059,10 +1059,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Salida de emergencia:",
                     "Las escaleras se encuentran sobre el pasillo frontal del edificio, desciende un nivel.",
                     "Una vez en en el piso 2 camina hacia el pasillo paralelo el que llegaste, ahí se encuentran las escaleras, desciende un piso",
-                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión. 1.&AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -1078,10 +1078,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Salida de emergencia:",
                     "Las escaleras se encuentran sobre el pasillo frontal del edificio, desciende dos nivel.",
                     "Una vez en en el piso 2 camina hacia el pasillo paralelo el que llegaste, ahí se encuentran las escaleras, desciende un piso",
-                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional",
+                    "Ya en el nivel 1 frente a las escaleras centrales, se encuentra la sala de trade room, del lado derecho se encuentra la salida, esta salida te llevará a las explanada de profesional 1.&AULAS2PISO1",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano.",
                     "Segunda salida de emergencia: ",
-                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión.",
+                    "Justo del otro lado del trade room, en la conexión con Aulas 1 se encuentra la segunda salida, esta salida también te llevará a la explanada de profesional. punto de reunión. 1.AULAS1Y2",
                     "Una vez ahí, dirigete al centro de la explanada ese es el punto de reunion más cercano."]
 
 
@@ -1095,12 +1095,12 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Alejate de objetos que puedan caer y no uses elevador.",
                     "Ubica las salidas de emergencia. ",
                     "Primera salida de emergencia:",
-                    "Se encuentra en la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Se encuentra en la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión.",
                     "Segunda salida de emergencia: ",
-                    "Ésta salida está en el laboratorio que se encuentra bajando las escaleras, saliendo te encontrarás en la parte trasera del edificio. ",
+                    "Ésta salida está en el laboratorio que se encuentra bajando las escaleras, saliendo te encontrarás en la parte trasera del edificio. 1.&AULAS3PISO0",
                     "Una vez fuera de tu lado izquierdo se encuentra un estacionamiento, ese es el punto de reunión más cercano"];
 
                 }
@@ -1112,7 +1112,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja un piso.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -1127,7 +1127,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja dos pisos.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3 ",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -1144,7 +1144,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Espera a que el movimiento reduzca su fuerza y comienza a evacuar.",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja tres pisos.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería.1.&SALIDA2Y3 ",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -1161,7 +1161,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Espera a que el movimiento reduzca su fuerza y comienza a evacuar.",
                     "Salida de emergencia:",
                     "Dirigete hacia las escaleras, junto a los baños, baja cuatro pisos.",
-                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. ",
+                    "Cuando te encuentre en el piso 0 ve hacia la conexión con aulas 2, esta salida te llevará a la cafetería. 1.&SALIDA2Y3",
                     "Una vez fuera hay dos puntos de reunión cerca de tí. ",
                     "El primero está en el estacionamiento arriba a la derecha de donde te encuentras.",
                     "El segundo es saliendo a la izquierda se encuentra otro estacionamiento, ese es otro punto de reunión."]
@@ -1179,7 +1179,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Dirigete hacia la parte de atrás de la biblioteca, las puertas de cristal deberían estar abiertas, sal por ahí",
                     "Una vez fuera te encontrarás el punto de reunión justo enfrente, en el estacionamiento.",
                     "En caso de que las puertas se encuentren cerradas dirigete hacia las escaleras y sube un piso.",
-                    "Ya en el nivel 1 sal por las puertas principales hacia la explanada de profesional"];
+                    "Ya en el nivel 1 sal por las puertas principales hacia la explanada de profesional. 1.&EGADEPISO0"];
                 }
                 if(piso == 1){
                     var textArray = ["Te encuentras en Aulas "+aula+" piso "+piso+".",
@@ -1189,7 +1189,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Dirigete hacia la salida principal de learning commons, saliendo te encontrarás en la explanda de profesional. ",
                     "Existe otra salida, se encuentra dentro de los salones para maestros, esta salida te llevará a un pequeño jardín.",
-                    "Desde ahí puedes salir a la explanada de profesional."];
+                    "Desde ahí puedes salir a la explanada de profesional. 1.&EGADEPISO0"];
 
                 }
                 if(piso == 2){
@@ -1200,7 +1200,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Ubica las salidas de emergencia. ",
                     "Salidas de emergencia:",
                     "la primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -1222,7 +1222,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -1244,7 +1244,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                    "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -1266,7 +1266,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -1289,7 +1289,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -1312,7 +1312,7 @@ simulacionDefinida(magnitud, hora, aula, piso)
                     "Una vez en el piso 1 utiliza alguna de las 2 salidas de emergencia.",
                     "Salidas de emergencia:",
                     "La primera es la entrada principal que se encuentra a lado de la entrada al café cielito querido.",
-                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio.",
+                    "Saliendo te encontraras en la explanada de entrada al tec, el punto de reunión es frente del auditorio. 1.&EGADEPISO1",
                     "La segunda salida es la salida del café cielto querido, esta salida te llevará a una pequeña área de mesas.",
                     "Sigue caminando derecho, tendrás que descender unos escalones y te encontrarás frente a aulas 1."];
 
@@ -1337,82 +1337,82 @@ simulacionDefinida(magnitud, hora, aula, piso)
     if(this.state.index < this.state.instructions.length){
       if(this.state.instructions[this.state.index].indexOf('&') > -1){
         var splitString = this.state.instructions[this.state.index].split("&");
-        if(splitString[1] == "SALIDAAULAS1"){
+        if(splitString[1] == "AULAS1CAFE"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[0]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/Aulas1_cafe1.jpeg')}/>
             </View>
           )
-        }else if(splitString[1] == "SALIDAAULAS1"){
+        }else if(splitString[1] == "AULAS1PISO1"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[0]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/Aulas1_piso1.jpeg')}/>
             </View>
           )
-        }else if(splitString[1] == "SALIDAAULAS1"){
+        }else if(splitString[1] == "AULAS1PISO2"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[0]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/Aulas1_piso2.jpeg')}/>
             </View>
           )
         }
-        else if(splitString[1] == "SALIDAAULAS1"){
+        else if(splitString[1] == "AULAS1Y2"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[0]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/Aulas1y2.jpeg')}/>
             </View>
           )
-        }else if(splitString[1] == "SALIDAAULAS1"){
+        }else if(splitString[1] == "AULAS2PISO0"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[0]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/Aulas2_piso0.jpeg')}/>
             </View>
           )
-        }else if(splitString[1] == "SALIDAAULAS1"){
+        }else if(splitString[1] == "AULAS2PISO1"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[2]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/Aulas2_piso1.jpeg')}/>
             </View>
           )
-        }else if(splitString[1] == "SALIDAAULAS1"){
+        }else if(splitString[1] == "AULAS3PISO0"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[2]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/Aulas3_piso0.jpeg')}/>
             </View>
           )
-        }else if(splitString[1] == "SALIDAAULAS1"){
+        }else if(splitString[1] == "SALIDA2Y3"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[2]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/Entre2y3.jpeg')}/>
             </View>
           )
-        }else if(splitString[1] == "SALIDAAULAS1"){
+        }else if(splitString[1] == "SALIDA2Y3PARTE2"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[2]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/Entre2y3Salida.jpeg')}/>
             </View>
           )
-        }else if(splitString[1] == "SALIDAAULAS1"){
+        }else if(splitString[1] == "EGADEPISO0"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[2]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/EGADE_piso1.jpeg')}/>
             </View>
           )
-        }else if(splitString[1] == "SALIDAAULAS1"){
+        }else if(splitString[1] == "EGADEPISO1"){
           return(
             <View style={{flex:1, alignItems: 'center', justifyContent: 'center',}}>
               <Text style={styles.instruction}>{splitString[2]}</Text>
-              <Image style={styles.instructionImage} source={require('../../Images/aulas.jpg')}/>
+            <Image style={styles.instructionImage} source={require('../../Images/Salidas/EGADE_piso2.jpeg')}/>
             </View>
           )
         }
@@ -1429,10 +1429,6 @@ simulacionDefinida(magnitud, hora, aula, piso)
       return(
         <View>
           <Text style={styles.instruction}>Ha finalizado la simulacion oprime siguiente paso para salir</Text>
-          <Image
-          style={styles.stretch}
-          source={require('../../Images/aulas1/AULAS1_4.png')}
-         />
         </View>
       )
     }
