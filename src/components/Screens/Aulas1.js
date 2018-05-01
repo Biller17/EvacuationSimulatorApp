@@ -1,90 +1,94 @@
 import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View,
-  TouchableNativeFeedback,
-  Dimensions,
-  Modal,
-} from 'react-native';
- 
-import ImageElement from '../Screens/ImageElement';
+import { StyleSheet, Text, View, Image } from 'react-native';
+
+import { Container, Content } from 'native-base'
+import Swiper from 'react-native-swiper'
 
 class Aulas1 extends Component {
-    state={
-        modalVisible: false,
-        modalImage: require('../../Images/aulas1/AULAS1_2.png'),
-        images:[
-            require('../../Images/aulas1/AULAS1_2.png'),
-            require('../../Images/aulas1/AULAS1_3.png'),
-            require('../../Images/aulas1/AULAS1_4.png'),
-            require('../../Images/aulas1/AULAS1_5.png')
-        ]
-    }
 
-    setModalVisible(visible, imageKey){
-        this.setState({modalImage: this.state.images[imageKey]});
-        this.setState({modalVisible: visible});
-    }
-
-    getImage(){
-        return this.state.modalImage;
-    }
-
-
-    render() {
-        let images = this.state.images.map((val, key) =>{
-            return<TouchableNativeFeedback key={key}
-                        onPress={()=>{this.setModalVisible(true, key)}}>
-                        <View>
-                            <ImageElement imgsource={val}></ImageElement>
-                        </View>
-                    </TouchableNativeFeedback>
-
-        });
-      return (
-          <View style = {styles.container}>
-            <Modal style={styles.modal} animationType={'fade'}
-                    transparent={true} visible={this.state.modalVisible}
-                    onRequestClose={() => {}}>
-
-                    <View style={styles.modal}>
-                        <Text style={styles.text}
-                            onPress={() => {this.setModalVisible(false)}}> Close</Text>
-                        <ImageElement imgsource={this.state.modalImage}></ImageElement>
-                    </View>
-            </Modal>
-            {images}
-          </View>
-      );
+  constructor() {
+    super()
+    this.state = {
+      outerScrollEnabled: true
     }
   }
 
-  const styles = StyleSheet.create({
-      container:{
-          flex: 1,
-          flexDirection: 'row',
-          flexWrap: 'wrap',
-          backgroundColor: '#eee',
-      },
-      imagewrap:{
-        margin: 2,
-        padding: 2,
-        height: (Dimensions.get('window').height/3)-12,
-        width: (Dimensions.get('window').width/2)-4,
-        backgroundColor: '#fff',
-      },
-      modal:{
-          flex: 1,
-          padding: 40,
-          backgroundColor: 'rgba(0,0,0,0.9)'
-      },
-      text:{
-          color: '#fff'
-      }
+  verticalScroll = (index) => {
+    if (index !== 1) {
+      this.setState({
+        outerScrollEnabled: false
+      })
+    }
+    else {
+      this.setState({
+        outerScrollEnabled: true
+      })
+    }
+  }
 
+  render() {
+    return (
+      <Container>
+        <Content>
+          <Swiper
+            loop={false}
+            showsPagination={false}
+            index={1}
+            scrollEnabled={this.state.outerScrollEnabled}
+          >
+
+            <View style={styles.slideDefault}>
+                <Text style={styles.text}>Segundo Nivel</Text>
+                <Image
+                style={styles.stretch}
+                source={require('../../Images/aulas1/AULAS1_2.png')}
+              />
+              </View>
+            <View style={styles.slideDefault}>
+                <Text style={styles.text}>Tercer Nivel</Text>
+                <Image
+                style={styles.stretch}
+                source={require('../../Images/aulas1/AULAS1_3.png')}
+              />
+            </View>
+            <Swiper
+              loop={false}
+              showsPagination={false}
+              horizontal={false}
+              index={1}
+              onIndexChanged={(index) => this.verticalScroll(index)}
+            >
+              <View style={styles.slideDefault}>
+                 <Text style={styles.text}>Cuarto Nivel</Text>
+                 <Image
+                 style={styles.stretch}
+                 source={require('../../Images/aulas1/AULAS1_4.png')}
+                />
+              </View>
+            </Swiper>
+          </Swiper>
+        </Content>
+      </Container>
+    );
+  }
+}
+
+const styles = StyleSheet.create({
+    slideDefault: {
+      flex: 1,
+      justifyContent: 'center',
+      alignItems: 'center',
+      backgroundColor: '#3498db'
+    },
+    text: {
+      color: 'white',
+      fontSize: 30,
+      fontWeight: 'bold'
+    },
+    stretch: {
+        width: 300,
+        height: 400
+      }
   })
 
   export default Aulas1;
- 

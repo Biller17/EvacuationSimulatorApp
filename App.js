@@ -16,7 +16,7 @@ import Aulas3 from './src/components/Screens/Aulas3'
 import EGADE from './src/components/Screens/EGADE'
 import {Scene, Router} from 'react-native-router-flux';
 
-export default class App extends Component<{}> {
+export default class App extends Component {
 
   constructor() {
     super()
