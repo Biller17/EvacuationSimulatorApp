@@ -1343,6 +1343,10 @@ simulacionDefinida(magnitud, hora, aula, piso)
       return(
         <View>
           <Text style={styles.instruction}>Ha finalizado la simulacion oprime siguiente paso para salir</Text>
+          <Image
+          style={styles.stretch}
+          source={require('../../Images/aulas1/AULAS1_4.png')}
+         />
         </View>
       )
     }
